@@ -23,5 +23,5 @@ This app is designed to run in different ways:
 
 ### running the app
 
-After installing, run the server using `npm start`.
-Access the running app in a browser at the URL written to the console (most likely http://localhost:5000).
+After installing, run the server using `npm start`.<br>
+Access the running app in a browser at the URL written to the console (http://localhost:5000).
