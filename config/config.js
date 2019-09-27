@@ -1,11 +1,9 @@
-var path = require('path');
-var express = require('express');
-var routes = require('../routes');
+let path = require('path'),
+  express = require('express'),
+  routes = require('../routes')
 
-module.exports = function(app) {
-
+module.exports = (app) => {
   app.use('/public/',express.static(path.join(__dirname,'../public')))
-  routes.home(app);
-  return app;
-
-};
+  routes.home(app)
+  return app
+}

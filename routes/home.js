@@ -1,6 +1,6 @@
-var home = require('../controllers/home');
+let home = require('../controllers/home')
 
-module.exports = function(app){
-  app.get('/', home.index);
-  app.get('/:user', home.user);
+module.exports = (app) => {
+  app.get('/', home.index)
+  app.get('/:user', home.user)
 }
